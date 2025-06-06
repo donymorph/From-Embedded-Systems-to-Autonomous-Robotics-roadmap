@@ -604,3 +604,6 @@ Favicon
 [Hello World!] Sense — Plan — Act – StreetDrone
 
 https://www.streetdrone.com/hello-world-sense-plan-act/
+
+## GitHub Pages
+To view this roadmap as an interactive website, enable **GitHub Pages** in repository settings and select the `docs/` folder as the source.
