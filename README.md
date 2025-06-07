@@ -2,6 +2,13 @@ Ultimate Guide: From Embedded Systems to Autonomous Robotics
 Introduction: This guide provides a comprehensive roadmap from low-level embedded systems (programming bare-metal hardware) up to high-level autonomous driving and robotics systems. We will cover fundamental concepts, tools, and languages at each layer of this technological stack – including hardware programming, sensors/actuators, control theory, robotics algorithms, machine learning, and autonomous vehicle architecture. The content is aimed at advanced practitioners and researchers, emphasizing why each topic matters and the mathematical foundations behind them. For beginners, note that proficiency in programming (particularly C/C++ for embedded and Python for higher-level robotics/AI) is essential
 erc-bpgc.github.io
 . Below, we break down the journey into logical sections, each building on the previous.
+```mermaid
+graph TD
+  MCU --> RTOS
+  RTOS --> ROS2
+  ROS2 --> AV_Planning
+```
+
 Embedded Systems Fundamentals (Bare Metal)
 An embedded system is essentially a specialized computer integrated into a larger system, dedicated to specific functions (unlike a general-purpose PC). It typically includes at least one microcontroller or microprocessor and is optimized for reliability, cost, size, and power efficiency
 github.com
